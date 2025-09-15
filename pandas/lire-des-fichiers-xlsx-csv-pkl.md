@@ -31,7 +31,7 @@ data = pd.read_csv(
 
 ```python
 import pandas as pd
-data = pd.read_csv(
+data = pd.read_excel_csv(
         '/path/to/file.xlsx',   # Path to the Excel file
         #Options utiles
         sheet_name=0, # le nom de la "feuille" excel
