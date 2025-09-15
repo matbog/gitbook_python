@@ -1,0 +1,15 @@
+# Table of contents
+
+* [Bases](README.md)
+* [Comment ecrire du code](comment-ecrire-du-code.md)
+* [Les "types" en python](les-types-en-python.md)
+* [Les chaînes de caractères (strings)](les-chaines-de-caracteres-strings.md)
+* [Les listes](les-listes.md)
+* [Les dictionnaires](les-dictionnaires.md)
+* [Tuples et Set](tuples-et-set.md)
+* [Conditions et Opérateurs logiques](conditions-et-operateurs-logiques.md)
+* [Les boucles](les-boucles.md)
+* [Les fonctions](les-fonctions.md)
+* [Exceptions](exceptions.md)
+* [Input utilisateurs](input-utilisateurs.md)
+* [Fichiers textes : lire & ecrire](fichiers-textes-lire-and-ecrire.md)
