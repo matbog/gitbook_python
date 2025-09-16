@@ -91,7 +91,7 @@ print(ages)
 Name: Âge, dtype: int64
 ```
 
-👉 Ici, on a **une seule colonne** avec un index automatique (0, 1, 2).
+Ici, on a **une seule colonne** avec un index automatique (0, 1, 2).
 
 #### Exemple : créer une DataFrame
 
@@ -114,7 +114,7 @@ Résultat :
 2  Charlie   35
 ```
 
-👉 Ici, on a un tableau **2D**, avec plusieurs colonnes.
+Ici, on a un tableau **2D**, avec plusieurs colonnes.
 
 #### Passer de l’un à l’autre
 
@@ -130,13 +130,13 @@ print(df["Âge"])
 print(df[["Nom", "Âge"]])
 ```
 
-👉 Retenir :
+Retenir :
 
 * Une **Series** est une seule colonne de données.
 * Une **DataFrame** est un tableau complet (plusieurs Series mises ensemble).
 * Chaque fois que vous manipulez une DataFrame, souvenez-vous qu’en interne, ce n’est qu’un ensemble de Series alignées sur le même index.
 
-## 👉 Retenir
+## À Retenir
 
 * On peut créer une DataFrame “à la main” avec des dictionnaires ou listes.
 * Une DataFrame est **la structure centrale de Pandas**, que l’on manipulera ensuite avec toutes les fonctions vues dans les chapitres suivants.

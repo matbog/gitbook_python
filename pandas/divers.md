@@ -7,17 +7,13 @@ icon: ellipsis
 
 ## Export de `dataframes`
 
-IL peut être utile, parfois, d'exporter des dataframe ou des morceau de dataframe pour des integrations en Markdown ou en LaTeX pour des publications. Heureusement, des commandes intégrées à pandas nous évitent de tout réécrire ! &#x20;
+Il peut être utile, parfois, d'exporter des DataFrame ou des morceau de DataFrame pour des intégrations en `Markdown` ou en `LaTeX` pour des publications. Heureusement, des commandes intégrées à Pandas nous évitent de tout réécrire !
 
 ### `.to_latex()`
-
-la commande ...&#x20;
 
 {% embed url="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_latex.html" %}
 
 ### `.to_markdown()`
-
-La commande ...
 
 {% embed url="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_markdown.html" %}
 

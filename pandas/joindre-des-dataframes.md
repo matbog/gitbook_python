@@ -9,11 +9,11 @@ Quand on travaille avec plusieurs sources de données, il est fréquent de voulo
 En Pandas, il existe trois grandes approches complémentaires :
 
 1. **`merge`** → fusionner deux DataFrames **selon une ou plusieurs colonnes communes** (clé(s) de jointure).\
-   👉 C’est l’équivalent des jointures en SQL.
+   &#xNAN;_&#x43;’est l’équivalent des jointures en SQL._
 2. **`join`** → similaire à `merge`, mais basé sur **l’index** des DataFrames.\
-   👉 Pratique si vos DataFrames sont déjà indexés de manière cohérente.
+   &#xNAN;_&#x50;ratique si vos DataFrames sont déjà indexés de manière cohérente._
 3. **`concat`** → empiler ou juxtaposer plusieurs DataFrames (sans clé commune, juste les aligner par colonnes ou par lignes).\
-   👉 Pratique pour rassembler plusieurs fichiers de structure identique.
+   &#xNAN;_&#x50;ratique pour rassembler plusieurs fichiers de structure identique._
 
 
 
@@ -88,7 +88,7 @@ print(df_stack)
 
 ***
 
-## 👉 Retenir
+## À Retenir
 
 * Utiliser `merge` quand on a une ou plusieurs colonnes en commun.
 * Utiliser `join` quand les index sont déjà définis et cohérents.

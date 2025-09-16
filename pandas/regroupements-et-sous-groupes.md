@@ -50,7 +50,7 @@ Paris        31.5
 Name: PM10, dtype: float64
 ```
 
-👉 Par défaut, la colonne de regroupement devient l’index.
+Par défaut, la colonne de regroupement devient l’index.
 
 #### Garder la colonne de regroupement
 

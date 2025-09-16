@@ -29,7 +29,7 @@ print(df)
 3      Paris  28.0
 ```
 
-👉 On peut vérifier où sont les `NaN`&#x20;
+On peut vérifier où sont les `NaN`&#x20;
 
 ```python
 df.isna()              # tableau booléen
@@ -120,12 +120,12 @@ df_interp_time = df.interpolate(method="time")
 df_interp_poly = df.interpolate(method="polynomial", order=2)  # interpolation polynomiale (quadratique ici)
 ```
 
-## 👉 Retenir
+## À Retenir
 
 * `isna()` / `notna()` pour détecter
 * `dropna()` pour supprimer
 * `fillna()` pour remplacer
-* `interpolate()` pour estimer des valeurs manquantes en contin
+* `interpolate()` pour estimer des valeurs manquantes en continue
 
 ***
 

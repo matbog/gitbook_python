@@ -164,7 +164,7 @@ df.loc[df["colonne_A"] > 28, "colonne_C"] = 50
 
 :warning:  Si on ne précise pas qu'on veut remplacer la valeur de la `colonne_C` il va remplacer toute la ligne qui a satisfait à la condition demandée !
 
-:thumbsup:  Avantages :
+Avantages :
 
 * On peut, comme avant, utiliser plusieurs conditions en les combinant
 * On peut remplacer les valeurs de plusieurs colonnes en même temps
@@ -185,7 +185,7 @@ df.loc[df["colonne_A"] > 28, ["colonne_C", "colonne_B"]] = [50, "soleil"]
 9       21.0      nuit       78.0
 ```
 
-## :rocket: Pour aller plus loin&#x20;
+## Pour aller plus loin&#x20;
 
 D'autres fonctions incluses dans `pandas`:
 
@@ -202,7 +202,7 @@ Pour gagner en vitesse, avec les logiques assez proches :
 
 Pour des plus grandes données, plus lourdes, ce types de filtres peut être "vectorisé" pour être appliqué de façon plus optimisé à vos données. En 2022-2023, il était encore pertinent des passer par `numpy`, notamment avec le `np.where`, qui fait sensiblement la même chose que plus haut, mais plus vite...&#x20;
 
-:clock1: Petit comparatif :&#x20;
+Petit comparatif :&#x20;
 
 ```python
 np.random.seed(0)

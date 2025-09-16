@@ -6,7 +6,7 @@ icon: chart-scatter
 # Visualiser les données d'un dataframe
 
 Pandas intègre une fonction de visualisation simple : **`DataFrame.plot()`**.\
-Elle permet de tracer directement vos données (basée sur Matplotlib).
+Elle permet de tracer directement vos données (basée sur [Matplotlib](https://matplotlib.org/stable/)).
 
 C’est très pratique pour explorer rapidement un jeu de données.
 
@@ -94,7 +94,7 @@ ax.grid(True)                         # grille
 
 <figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-👉 Grâce à cette approche, on combine la **simplicité de Pandas** avec la **puissance de Matplotlib** pour obtenir des graphiques clairs et personnalisés.
+Grâce à cette approche, on combine la **simplicité de Pandas** avec la **puissance de** [**Matplotlib**](https://matplotlib.org/stable/) pour obtenir des graphiques clairs et personnalisés.
 
 ***
 

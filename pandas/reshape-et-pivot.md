@@ -103,7 +103,7 @@ Lundi    12     10
 Mardi    11      9
 ```
 
-## 👉 Retenir
+## À Retenir
 
 * `pivot` → réorganise en large, mais suppose une seule valeur par combinaison.
 * `pivot_table` → permet d’agréger en cas de doublons.
