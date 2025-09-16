@@ -8,17 +8,18 @@ Jusqu’ici, nous avons utilisé des **variables**, des **listes**, des **dictio
 Mais dans des projets plus grands, il devient vite utile de **structurer** les données et les fonctions qui leur sont associées.\
 C’est exactement ce que permettent les **classes** en Python.
 
+***
+
 ## 1. Qu’est-ce qu’une classe ?
 
 * Une **classe** est un plan ou un “moule” qui décrit un objet.
 * Un **objet** est une “instance” de cette classe, avec ses **données** (attributs) et ses **méthodes** (fonctions qui lui sont propres).
 * C'est pour ces fameuse classes et ces objet qu'on parle parfois de [Programmation Orientée Objet](https://fr.wikipedia.org/wiki/Programmation_orient%C3%A9e_objet), ou **POO.**
+* Vous les utilisez sans le savoir souvent !&#x20;
 
 On définit une classe avec le mot-clé `class`.
 
-***
-
-#### Exemple simple : une voiture
+### Exemple simple : une voiture
 
 ```python
 class Voiture:
@@ -43,15 +44,19 @@ print(ma_voiture.vitesse)  # 50
 ma_voiture.accelerer(20)   # La vitesse de la Renault est maintenant 70 km/h.
 ```
 
+***
+
 ## 2. L’attribut spécial `self`
 
 * `self` représente **l’objet lui-même**.
 * Il doit toujours apparaître en premier paramètre des méthodes définies dans la classe.
-*   Quand on appelle `ma_voiture.accelerer(20)`, Python traduit en réalité par :
+* Quand on appelle `ma_voiture.accelerer(20)`, Python traduit en réalité par&#x20;
 
-    ```python
-    Voiture.accelerer(ma_voiture, 20)
-    ```
+```python
+Voiture.accelerer(ma_voiture, 20)
+```
+
+***
 
 ## 3. Ajouter des méthodes utiles
 
@@ -74,6 +79,8 @@ print("Aire :", rect.aire())         # 12
 print("Périmètre :", rect.perimetre())  # 14
 ```
 
+***
+
 ## 4. Héritage
 
 Une classe peut **hériter** d’une autre pour réutiliser et spécialiser son comportement.
@@ -94,6 +101,8 @@ m = Moto("Yamaha")
 m.demarrer()  # Yamaha démarre.
 m.cabrer()    # La moto Yamaha fait un wheeling !
 ```
+
+***
 
 ## 5. Les méthodes spéciales
 
@@ -125,6 +134,8 @@ print(v1)         # (2, 3)
 print(v1 + v2)    # (3, 2)
 ```
 
+***
+
 ## En résumé
 
 * Une **classe** = un plan qui regroupe données (**attributs**) et comportements (**méthodes**).
@@ -132,6 +143,8 @@ print(v1 + v2)    # (3, 2)
 * On peut créer ses propres types adaptés à un problème d’ingénierie (ex : un “Cercle”, une “Station”, un “Capteur”).
 * L’**héritage** permet de réutiliser et spécialiser du code.
 * Les **méthodes spéciales** (`__init__`, `__str__`, `__len__`, …) permettent d’intégrer vos objets au langage Python de manière naturelle.
+
+***
 
 ## Exemple concret : une classe `Batiment`
 

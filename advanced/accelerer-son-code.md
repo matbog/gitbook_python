@@ -10,6 +10,8 @@ Cela vient du fait que **Python est un langage interprété** (le code est tradu
 
 Heureusement, il existe plusieurs techniques pour améliorer les performances !
 
+***
+
 ## 1. Optimiser le code avant tout
 
 Avant de “multithreader” ton programme, il est crucial d’écrire du code efficace :
@@ -51,6 +53,8 @@ squares = [x**2 for x in data]
 squares_fast = data**2
 ```
 
+***
+
 ## 2. Threads et tâches concurrentes (I/O-bound)
 
 Le **multithreading** en Python est utile pour exécuter plusieurs tâches d’**entrée/sortie** en parallèle (téléchargements, requêtes API, lecture de fichiers), car ces tâches passent beaucoup de temps à attendre.
@@ -77,6 +81,8 @@ with ThreadPoolExecutor(max_workers=3) as executor:
 for url, size in results:
     print(f"{url}: {size} caractères téléchargés")
 ```
+
+***
 
 ## 3. Parallélisme (CPU-bound)
 
@@ -106,7 +112,9 @@ with Pool(processes=4) as pool:  # utilise 4 cœurs
 print(results)  # [False, True, True, True, False]
 ```
 
-Des bons exemples d'utilisatoin en ingénieire sont disponibles ici : [https://eddes.github.io/#go-parallel](https://eddes.github.io/#go-parallel)
+Des bons exemples d'utilisation en ingénierie sont disponibles ici : [https://eddes.github.io/#go-parallel](https://eddes.github.io/#go-parallel)
+
+***
 
 ## 4. Accélération avec **Numba**
 
@@ -148,6 +156,8 @@ Temps avec Numba : 0.1369612216949463 s
 
 💡 **Astuce** : la première exécution d’une fonction `@njit` peut être plus lente (car Numba compile le code), mais les appels suivants sont beaucoup plus rapides.
 
+***
+
 ## 5. Quand utiliser quoi ?
 
 * **Optimisation simple** : revoir l’algorithme, éviter les boucles inutiles.
@@ -155,4 +165,10 @@ Temps avec Numba : 0.1369612216949463 s
 * **Threads (`threading`, `ThreadPoolExecutor`)** : utiles pour l’I/O (lecture/écriture, API, téléchargements).
 * **Multiprocessing (`multiprocessing`, `ProcessPoolExecutor`)** : utile pour paralléliser des calculs lourds.
 * **Numba** : parfait pour accélérer du code Python pur, en particulier les boucles numériques.
+
+***
+
+_<mark style="color:$info;">Auteur :</mark>_ [_<mark style="color:$info;">Mateusz Bogdan</mark>_](https://matbog.github.io/)\
+&#xNAN;_<mark style="color:$info;">Contenu texte et illustrations :</mark>_ [_<mark style="color:$info;">CC BY 4.0</mark>_](https://creativecommons.org/licenses/by/4.0/)\
+&#xNAN;_<mark style="color:$info;">Exemples de code :</mark>_ [_<mark style="color:$info;">MIT License</mark>_](https://opensource.org/licenses/MIT)
 

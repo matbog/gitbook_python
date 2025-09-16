@@ -1,4 +1,5 @@
 ---
+description: Pour aller plus loin !
 icon: graduation-cap
 ---
 
@@ -9,6 +10,8 @@ Dans cette page, on pousse plus loin la POO en Python :
 * **Héritage** : réutiliser et spécialiser du code.
 * **Polymorphisme** : un même nom de méthode, des comportements adaptés.
 * **Dataclasses** : créer des classes “porte-données” sans boilerplate.
+
+***
 
 ## 1. Héritage : réutiliser et spécialiser
 
@@ -47,6 +50,8 @@ Renault consomme ~7.8 L sur 150 km.
 * `super()` permet de réutiliser proprement le code du parent (ex. initialisation).
 * On peut surcharger une méthode du parent pour un comportement spécifique.
 
+***
+
 ## 2. Polymorphisme : même interface, comportements adaptés
 
 Le polymorphisme consiste à définir la **même méthode** sur plusieurs classes, et laisser chaque classe fournir **sa propre implémentation**.
@@ -84,6 +89,8 @@ Autonomie ≈ 400 km
 
 Ici, `autonomie()` existe dans les deux classes, mais son **calcul dépend du type** de véhicule.\
 Le code client (la boucle) n’a pas besoin de savoir **quel** type précis il manipule → c’est le **principe clé** du polymorphisme.
+
+***
 
 ## 3. Dataclasses : classes “porte-données” sans boilerplate
 
@@ -133,9 +140,11 @@ print(c)
 # c.localisation = "Quai B"  # ❌ Erreur si frozen=True (objet immuable)
 ```
 
+***
+
 ## 4. Bonus
 
-### 1. Propriétés, méthodes de classe et méthodes statiques
+### Propriétés, méthodes de classe et méthodes statiques
 
 #### `@property` : attribut calculé (interface propre)
 
@@ -188,7 +197,7 @@ print(Energie.kwh_to_mwh(18500))
 18.5
 ```
 
-### 2. Classes abstraites (contrat d’interface)
+### Classes abstraites (contrat d’interface)
 
 Les **classes abstraites** définissent un contrat (méthodes à implémenter).\
 Elles évitent d’instancier par erreur une classe incomplète.
@@ -212,7 +221,7 @@ print(m.predire_pm10({"trafic": 80, "vent": 10, "pluie": 2}))
 41.8
 ```
 
-### 3. Méthodes spéciales (dunder)
+### Méthodes spéciales (dunder)
 
 Elles rendent vos objets “naturels” à utiliser.
 
@@ -232,6 +241,8 @@ print(len(v1))
 >>>
 3
 ```
+
+***
 
 ## À retenir
 

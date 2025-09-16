@@ -14,6 +14,8 @@ Quand on regarde du code Python, on tombe très souvent sur la ligne suivante
 
 _Mais à quoi ça sert exactement ?_
 
+***
+
 ## Comprendre `__name__` <a href="#comprendre-__name" id="comprendre-__name"></a>
 
 En Python, chaque fichier `.py` est en réalité un **module**. Lorsqu’un fichier est exécuté, Python crée une variable spéciale appelée **`__name__`** :
@@ -21,9 +23,7 @@ En Python, chaque fichier `.py` est en réalité un **module**. Lorsqu’un fich
 * Si le fichier est exécuté **directement** (ex. `python mon_script.py`) → alors `__name__ == "__main__"`.
 * Si le fichier est **importé** dans un autre script (ex. `import mon_script`) → alors `__name__ == "mon_script"`.
 
-***
-
-#### Exemple simple <a href="#exemple-simple" id="exemple-simple"></a>
+### Exemple simple <a href="#exemple-simple" id="exemple-simple"></a>
 
 Imaginons un fichier `calculs.py`&#x20;
 
@@ -63,6 +63,8 @@ On remarque que **la partie sous `if __name__ == "__main__":` n’a pas été ex
 
 C’est exactement son rôle : éviter que le “code de test” ou “code principal” ne s’exécute quand on utilise le fichier comme une librairie.
 
+***
+
 ## Quand utiliser `__main__` ? <a href="#quand-utiliser-__main" id="quand-utiliser-__main"></a>
 
 * ✅ Si ton fichier doit pouvoir être utilisé **à la fois comme script autonome** (exécuté directement) **et comme module importable** dans un autre projet.
@@ -75,11 +77,11 @@ C’est exactement son rôle : éviter que le “code de test” ou “code prin
 * `if __name__ == "__main__":` permet de séparer le **code exécutable** (tests, lancement du programme) du **code réutilisable** (fonctions, classes).
 * C’est une bonne pratique, surtout quand on construit des projets plus gros ou qu’on veut partager son code.
 
+***
+
 ## Exemple pratique : `__main__` et importation de modules <a href="#exemple-pratique-__main__-et-importation-de-modules" id="exemple-pratique-__main__-et-importation-de-modules"></a>
 
 Imaginons que vous vouliez organiser votre code en **plusieurs fichiers**. C’est très courant en projet : on met les fonctions “utilitaires” dans un fichier séparé, et on les importe ensuite dans un script principal.
-
-***
 
 ### Étape 1 : créer un fichier `outils.py` <a href="#etape-1-creer-un-fichier-outils.py" id="etape-1-creer-un-fichier-outils.py"></a>
 
@@ -137,6 +139,8 @@ Produit : 56
 * Cela rend votre projet plus clair et mieux organisé.
 * Vous pouvez réutiliser vos fonctions dans d’autres scripts simplement avec `import`.
 * Les tests inclus sous `if __name__ == "__main__":` permettent de vérifier le module **sans perturber** les autres programmes qui l’utilisent.
+
+***
 
 ## À Retenir <a href="#retenir-1" id="retenir-1"></a>
 
