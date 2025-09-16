@@ -7,11 +7,13 @@ icon: chart-scatter
 La visualisation est l’une des forces de Python. Avec seulement quelques lignes de code, on peut créer des graphiques clairs et esthétiques.\
 La bibliothèque la plus utilisée est [**Matplotlib**](https://matplotlib.org/stable/users/getting_started/) (bas niveau, très flexible)
 
+***
+
 ## Les bases
 
-Matplotlib est très flexible mais parfois verbeux.
+[Matplotlib](https://matplotlib.org/stable/users/getting_started/) est très flexible mais parfois _verbeux_.
 
-Créons un petit jeu de données simple (évolution d’une température mesurée sur une journée), avec les imports minimum
+Créons un petit jeu de données simple (évolution d’une température mesurée sur une journée), avec les imports minimum :
 
 ```python
 import numpy as np
@@ -20,10 +22,6 @@ import matplotlib.pyplot as plt
 heures = np.arange(0, 24, 3)        # heures de 0h à 21h
 temperature = [5, 6, 9, 14, 18, 17, 12, 8]
 ```
-
-***
-
-
 
 ### Courbe simple (line plot)
 
@@ -36,8 +34,6 @@ plt.show()
 ```
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-***
 
 ### Personnaliser le style de la courbe
 
@@ -60,8 +56,6 @@ plt.show()
 
 Imaginons une deuxième série (humidités mesurées aux mêmes heures) :
 
-
-
 ```python
 humidite = [80, 78, 70, 60, 55, 65, 75, 85]
 
@@ -74,6 +68,8 @@ plt.show()
 ```
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ## Types de graphiques
 

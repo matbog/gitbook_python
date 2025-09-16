@@ -5,10 +5,14 @@ icon: globe-pointer
 
 # Ressources externes
 
+***
+
 ## Ressources & galeries généralistes
 
 * [Python Graph Gallery](https://python-graph-gallery.com/) → Une vraie bible, c'est un super site avec plein d'exemples !&#x20;
 * [PyViz Gallery](https://pyviz.org/scivis/index.html) → listing de nombreuse librairies de "Scientific Visualistion"
+
+***
 
 ## Librairies visualisation Python &#x20;
 

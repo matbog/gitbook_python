@@ -7,6 +7,8 @@ icon: chart-mixed
 [Seaborn ](https://seaborn.pydata.org/)est construit au-dessus de Matplotlib.\
 Il permet de créer rapidement des graphiques plus esthétiques, avec moins de code, surtout quand les données sont sous forme de **DataFrame Pandas**.
 
+***
+
 ## Bases
 
 Créons un petit jeu de données fictif (pollution PM10 mesurée dans 3 villes, sur 2 jours) :
@@ -42,8 +44,6 @@ plt.show()
 
 <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-***
-
 ### Barplot (diagrammes en barres)
 
 Comparer les moyennes par ville.\
@@ -58,8 +58,6 @@ plt.show()
 
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-***
-
 ### Scatterplot (nuages de points)
 
 Afficher les valeurs individuelles selon la ville et le jour.
@@ -73,8 +71,6 @@ plt.show()
 
 <figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-***
-
 ### Boxplot (distribution)
 
 Comparer la distribution des valeurs par ville (très utile pour voir la variabilité).
@@ -86,8 +82,6 @@ plt.show()
 ```
 
 <figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-***
 
 ### Heatmap (tableau de couleurs)
 
@@ -102,15 +96,15 @@ plt.show()
 
 <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-***
-
 ### Points clés
 
 * **Seaborn** simplifie beaucoup la création de graphiques à partir de DataFrames.
 * Les couleurs, légendes et styles sont automatiques (et plus esthétiques que Matplotlib par défaut).
 * Tu peux rapidement passer d’une vision **par valeur individuelle** (scatter), à des **résumés statistiques** (barplot, boxplot), ou à des **cartes de chaleur** (heatmap).
 
-## Pour aller plus loin : Les principaux plots Seaborn
+***
+
+## Les principaux plots Seaborn
 
 ### Données continues (courbes, distributions)
 
@@ -118,8 +112,6 @@ plt.show()
 * `scatterplot()` → nuages de points
 * `regplot()` → nuage de points + droite de régression (optionnelle)
 * `lmplot()` → similaire à `regplot`, mais plus flexible (gère plusieurs facettes et variables de regroupement).
-
-***
 
 ### Données catégorielles
 
@@ -130,15 +122,11 @@ plt.show()
 * `stripplot()` → valeurs individuelles (points “jitterés”)
 * `swarmplot()` → valeurs individuelles réparties sans chevauchement (plus lisible qu’un stripplot).
 
-***
-
 ### Distribution & densité
 
 * `histplot()` → histogrammes (remplace l’ancien `distplot`)
 * `kdeplot()` → densité (courbe lissée)
 * `ecdfplot()` → fonction de répartition empirique (ECDF).
-
-***
 
 ### Relations multivariées
 
@@ -147,13 +135,13 @@ plt.show()
 * `heatmap()` → matrice colorée (corrélations, pivot tables, etc.)
 * `clustermap()` → heatmap avec clustering hiérarchique automatique.
 
-***
-
 ### Facettes & organisation
 
 * `FacetGrid()` → base pour tracer plusieurs sous-graphiques selon des variables.
 * `catplot()` → fonction générique pour combiner barplot, boxplot, etc., avec facettes.
 * `relplot()` → fonction générique pour lineplot et scatterplot avec facettes.
+
+***
 
 ## Ressources complémentaires&#x20;
 

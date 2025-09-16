@@ -10,6 +10,8 @@ Mais il est souvent utile de **sauvegarder vos figures** pour les insérer dans 
 
 Pour cela, on utilise la fonction **`plt.savefig()`**.
 
+***
+
 ## 1. Sauvegarder en PNG
 
 ```python
@@ -34,6 +36,8 @@ plt.savefig("sinus.png", dpi=150, bbox_inches="tight")
 * `dpi=150` : qualité de l’image (dots per inch). Plus la valeur est élevée, plus l’image est nette.
 * `bbox_inches="tight"` : permet de réduire les marges inutiles autour du graphique.
 
+***
+
 ## 2. Sauvegarder en PDF
 
 Vous pouvez aussi enregistrer vos figures en **PDF vectoriel**, pratique pour l’intégrer dans un rapport scientifique ou une présentation.
@@ -44,6 +48,8 @@ plt.savefig("sinus.pdf", bbox_inches="tight")
 
 Le PDF garde la **qualité vectorielle** (aucune perte si on zoome).
 
+***
+
 ## 3. Autres formats disponibles
 
 Matplotlib peut exporter dans de nombreux formats, par exemple :
@@ -52,6 +58,8 @@ Matplotlib peut exporter dans de nombreux formats, par exemple :
 * `"jpg"` → image compressée
 * `"svg"` → vectoriel pour le web
 * `"pdf"` → vectoriel, parfait pour un rapport ou une présentation
+
+***
 
 ## Retenir
 
