@@ -1,10 +1,10 @@
 ---
-icon: play
+icon: snake
 ---
 
 # Se mettre à Python
 
-## Bienvenue 👋
+## Bienvenue !&#x20;
 
 Ce site est en **construction progressive** : je l’enrichis progressivement avec des notes de cours, des tutoriels et des ressources pratiques autour de **Python**.
 
@@ -12,7 +12,13 @@ Ce site est en **construction progressive** : je l’enrichis progressivement av
 
 ### Pourquoi ce site ?
 
-Mon objectif est simple
+Ce site est sans prétention : il n’a pas vocation à remplacer de vraies formations certifiantes en Python.\
+Il s’agit plutôt d’un guide pratique, une boîte à outils pour se lancer.\
+J’y partage les bases que j’aurais aimé trouver quand j’ai commencé Python.
+
+Même parcouru en diagonale, il peut donner un aperçu des possibilités offertes par le langage, et peut-être l’envie d’aller plus loin.
+
+Mon objectif est simple :
 
 * Démystifier la programmation,&#x20;
 * partager des notions essentielles de Python et de ses bibliothèques,
@@ -29,9 +35,7 @@ Ils permettent de comprendre la logique, de voir comment appliquer directement l
 
 Vous utiliserez nécessairement Google, [Stackoverflow](https://stackoverflow.com/), ou des IA génératives, et ces bases sont là pour que vous puissiez comprendre les réponses que vous y trouverez !
 
-👉 L’objectif est que chacun puisse, à terme, **développer ses propres scripts et outils** sans dépendre constamment de ce site ou d’un enseignant.&#x20;
-
-
+\>>  L’objectif est que chacun puisse, à terme, **développer ses propres scripts et outils** sans dépendre constamment de ce site ou d’un enseignant.&#x20;
 
 ### Ce que vous trouverez ici
 
@@ -43,11 +47,11 @@ Différentes pages, accessibles par les liens ci-dessous, ou par le menu déroul
 
 ### En résumé
 
-* 📚 Un contenu qui s’étoffe petit à petit,
-* 🛠️ Une approche orientée pratique,
-* 🚀 Une ambition : vous rendre autonome dans vos développements en Python.
+* Un contenu qui s’étoffe petit à petit,
+* Une approche orientée pratique,
+* Une ambition : vous rendre autonome dans vos développements en Python.
 
-✍️ Bonne lecture, et surtout… bon code !
+Bonne lecture, et surtout… bon code !
 
 ***
 
