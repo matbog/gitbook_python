@@ -2,7 +2,9 @@
 
 
 Ce repository est un backup de gitbook pour mon site de cours de python : [https://matbog.gitbook.io/python](https://matbog.gitbook.io/python)
-<img height="600" alt="image" src="https://github.com/user-attachments/assets/615af86a-f987-437a-a859-5a1342e9f5dd" />
+
+<img width="600"  alt="landing-page" src="https://github.com/user-attachments/assets/fe018210-0b30-499b-b7f3-fab0668a0612" />
+
 
 Chaque dossier correspond à une "section" du site : 
 
