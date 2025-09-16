@@ -8,7 +8,9 @@ Avant de plonger dans [**Pandas**](https://matbog.gitbook.io/python/pandas), il 
 NumPy est une bibliothèque fondamentale pour le calcul scientifique en Python.\
 Elle permet de manipuler efficacement des **tableaux de nombres** (appelés **`ndarray`**) et de faire des calculs rapides.
 
-### Pourquoi utiliser NumPy ?
+***
+
+## Pourquoi utiliser NumPy ?
 
 * Les **listes Python** sont pratiques, mais lentes dès que l’on manipule de grands volumes de données.
 * Avec NumPy, les calculs sont **vectorisés** : une opération s’applique à tout un tableau sans écrire de boucle.
@@ -33,9 +35,11 @@ Puis, dans votre script :
 import numpy as np   # np est le “surnom” standard de numpy
 ```
 
-## 2. Créer un array (tableau NumPy)
+***
 
-Un **array** ressemble à une liste, mais il est beaucoup plus puissant.
+## 2. Créer un `array` (tableau NumPy)
+
+Un **`array`** ressemble à une liste, mais il est beaucoup plus puissant.
 
 ```python
 import numpy as np
@@ -53,9 +57,11 @@ Résultat :
 Type : <class 'numpy.ndarray'>
 ```
 
+***
+
 ## 3. Avantage : la vectorisation
 
-Sans NumPy (avec une liste Python), il faudrait boucler :
+Sans NumPy (avec une [liste](https://matbog.gitbook.io/python/bases/les-listes) Python), il faudrait boucler :
 
 ```python
 L = [2, 4, 6, 8]
@@ -74,6 +80,8 @@ print(a ** 2)    # [ 4 16 36 64]
 ```
 
 Les calculs sont **beaucoup plus rapides** car NumPy utilise du code optimisé en C sous le capot.
+
+***
 
 ## 4. Tableaux multidimensionnels
 
@@ -101,6 +109,8 @@ Taille : (2, 3)
 Élément (ligne 0, colonne 2) : 3
 ```
 
+***
+
 ## 5. Exemple pratique&#x20;
 
 Imaginons que l’on ait les **consommations de chauffage** (en kWh/m²) pour 3 bâtiments, ainsi que leurs surfaces.\
@@ -126,6 +136,8 @@ Résultat possible :
 Consommations totales (kWh) : [18000 16200 18000]
 Consommation moyenne : 17400.0 kWh
 ```
+
+***
 
 ## **À retenir**
 

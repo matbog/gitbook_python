@@ -7,6 +7,8 @@ icon: percent
 Un des gros avantages de NumPy est de pouvoir effectuer des **opérations mathématiques directement sur des tableaux entiers**, sans écrire de boucles.\
 Cela rend le code plus **rapide** et plus **lisible** qu’avec des listes classiques.
 
+***
+
 ## 1. Opérations arithmétiques de base
 
 Avec NumPy, les opérations s’appliquent **élément par élément.** Donc une seule instruction agit sur tout un tableau par exmple : on parle de **vectorisation.**
@@ -23,6 +25,8 @@ print(x * y)   # [10 40 90 160]
 print(y / x)   # [10. 10. 10. 10.]
 ```
 
+***
+
 ## 2. Fonctions mathématiques
 
 NumPy contient déjà de nombreuses fonctions utiles :
@@ -38,6 +42,8 @@ print(np.min(a))    # minimum → 2
 print(np.max(a))    # maximum → 8
 ```
 
+***
+
 ## 3. Opérations par axe
 
 Sur les tableaux multidimensionnels (`ndarray` à 2D ou plus), on peut calculer par **ligne** ou par **colonne** grâce au paramètre `axis`.
@@ -50,6 +56,8 @@ print(M.sum())        # somme de tous les éléments → 21
 print(M.sum(axis=0))  # somme par colonne → [5 7 9]
 print(M.sum(axis=1))  # somme par ligne   → [6 15]
 ```
+
+***
 
 ## 4. Produit matriciel et algèbre linéaire
 
@@ -78,6 +86,8 @@ print(np.linalg.inv(A))
 # [[-2.   1. ]
 #  [ 1.5 -0.5]]
 ```
+
+***
 
 ## 5. Exemple pratique&#x20;
 
@@ -109,6 +119,8 @@ Résultat possible :
 Consommation totale de chaque bâtiment : [18000 16200 18000]
 Consommation moyenne par habitant : [225. 270. 150.]
 ```
+
+***
 
 ## À retenir
 

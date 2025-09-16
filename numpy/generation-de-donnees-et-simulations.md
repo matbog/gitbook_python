@@ -7,6 +7,8 @@ icon: binary-circle-check
 Un autre atout de NumPy est sa capacité à **générer rapidement des données** (séquences, aléatoires, distributions).\
 Cela est très pratique pour simuler des expériences ou créer de petits jeux de données de test.
 
+***
+
 ## 1. Générer des suites numériques
 
 ```python
@@ -55,6 +57,8 @@ print(M)
 conso = np.random.randint(80, 200, size=(7, 7))
 print(conso)
 ```
+
+***
 
 ## 4. Simulation avec NumPy
 
@@ -120,6 +124,8 @@ plt.savefig("simulation_temperature.png", dpi=150, bbox_inches="tight")
 ```
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ## **À retenir**
 

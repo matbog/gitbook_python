@@ -7,6 +7,8 @@ icon: border-none
 Une fois NumPy installé et importé, l’outil principal que l’on utilise est le **tableau multidimensionnel** (`numpy.ndarray`).\
 Cette page montre comment **créer** des tableaux et les manipuler (taille, forme, opérations simples).
 
+***
+
 ## 1. Créer des tableaux
 
 ### À partir d’une liste Python
@@ -38,6 +40,8 @@ print(np.arange(0, 10, 2))   # [0 2 4 6 8]
 print(np.linspace(0, 1, 5))  # [0.   0.25 0.5  0.75 1.  ]
 ```
 
+***
+
 ## 2. Dimensions et formes
 
 Chaque `ndarray` possède :
@@ -54,6 +58,8 @@ print("Dimensions :", M.ndim)   # 2
 print("Shape :", M.shape)       # (2, 3)
 print("Taille :", M.size)       # 6
 ```
+
+***
 
 ## 3. Reshape et flatten
 
@@ -77,6 +83,8 @@ Résultat :
  [ 8  9 10 11]]
 [ 0  1  2  3  4  5  6  7  8  9 10 11]
 ```
+
+***
 
 ## 4. Exemple pratique
 
@@ -116,6 +124,8 @@ Somme par bâtiment : [575 620]
 Somme par jour : [255 290 330 320]
 Moyenne totale : 148.75
 ```
+
+***
 
 ## **À retenir**
 

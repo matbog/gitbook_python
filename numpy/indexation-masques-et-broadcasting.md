@@ -7,6 +7,8 @@ icon: indent
 Un des points forts de NumPy est la **manipulation efficace des données** :\
 on peut accéder rapidement aux éléments d’un tableau, extraire des sous-ensembles, ou appliquer des opérations sans boucle explicite.
 
+***
+
 ## 1. Indexation simple
 
 Un tableau NumPy peut avoir une ou plusieurs dimensions.\
@@ -27,7 +29,9 @@ print(M[0, 2])  # ligne 0, colonne 2 → 3
 print(M[2, 1])  # ligne 2, colonne 1 → 8
 ```
 
-### 2. Slicing (tranches)
+***
+
+## 2. Slicing (tranches)
 
 On peut sélectionner plusieurs valeurs à la fois grâce à la **notation `:`**.\
 La syntaxe est : `array[start:stop:step]`.
@@ -41,6 +45,8 @@ print(x[5:])     # [5 6 7 8 9] (de l’indice 5 à la fin)
 print(x[::2])    # [0 2 4 6 8] (un élément sur deux)
 ```
 
+***
+
 ## 3. Indexation avec une liste d’indices
 
 On peut demander directement les éléments d’un tableau en donnant une **liste d’indices**.
@@ -50,6 +56,8 @@ x = np.array([10, 20, 30, 40, 50])
 
 print(x[[0, 2, 4]])  # [10 30 50]
 ```
+
+***
 
 ## 4. Indexation booléenne (masques)
 
@@ -70,6 +78,8 @@ On peut combiner plusieurs conditions :
 ```python
 print(x[(x > 5) & (x < 20)])  # [12 18 7]
 ```
+
+***
 
 ## 5. Broadcasting
 
@@ -97,6 +107,8 @@ Résultat :
 ```
 
 Ici, NumPy **“étire” (broadcast)** le vecteur `v` sur chaque ligne de `M`. Pas besoin d’écrire de boucle !
+
+***
 
 ## 6. Exemple pratique (capteurs d’air)
 
@@ -131,6 +143,8 @@ Résultat :
 ```
 CO₂ moyen par jour : [405. 425. 460. 445. 432.5]
 ```
+
+***
 
 ## **À retenir**
 
