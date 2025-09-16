@@ -73,7 +73,7 @@ print(a + 10)    # [12 14 16 18]
 print(a ** 2)    # [ 4 16 36 64]
 ```
 
-👉 Les calculs sont **beaucoup plus rapides** car NumPy utilise du code optimisé en C sous le capot.
+Les calculs sont **beaucoup plus rapides** car NumPy utilise du code optimisé en C sous le capot.
 
 ## 4. Tableaux multidimensionnels
 
@@ -127,7 +127,7 @@ Consommations totales (kWh) : [18000 16200 18000]
 Consommation moyenne : 17400.0 kWh
 ```
 
-## 👉 **À retenir**
+## **À retenir**
 
 * **NumPy = base de Pandas et du calcul scientifique**.
 * Les **arrays** sont plus rapides et plus pratiques que les listes.

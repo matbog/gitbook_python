@@ -121,7 +121,7 @@ plt.savefig("simulation_temperature.png", dpi=150, bbox_inches="tight")
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## 👉 **À retenir**
+## **À retenir**
 
 * `arange` et `linspace` créent rapidement des suites numériques.
 * `np.random` permet de **simuler du hasard** (uniforme, gaussien, etc.).

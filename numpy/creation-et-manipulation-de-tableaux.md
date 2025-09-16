@@ -117,7 +117,7 @@ Somme par jour : [255 290 330 320]
 Moyenne totale : 148.75
 ```
 
-## 👉 **À retenir**
+## **À retenir**
 
 * `np.array([...])` pour transformer une liste en tableau.
 * `zeros`, `ones`, `full`, `arange`, `linspace` pour générer des données rapidement.

@@ -110,7 +110,7 @@ Consommation totale de chaque bâtiment : [18000 16200 18000]
 Consommation moyenne par habitant : [225. 270. 150.]
 ```
 
-## 👉 À retenir
+## À retenir
 
 * Les opérations NumPy sont **vectorisées** (rapides, pas besoin de boucles).
 * On peut appliquer des fonctions mathématiques directement sur tout un tableau.

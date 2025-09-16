@@ -96,7 +96,7 @@ Résultat :
  [17 28 39]]
 ```
 
-👉 Ici, NumPy **“étire” (broadcast)** le vecteur `v` sur chaque ligne de `M`. Pas besoin d’écrire de boucle !
+Ici, NumPy **“étire” (broadcast)** le vecteur `v` sur chaque ligne de `M`. Pas besoin d’écrire de boucle !
 
 ## 6. Exemple pratique (capteurs d’air)
 
@@ -132,7 +132,7 @@ Résultat :
 CO₂ moyen par jour : [405. 425. 460. 445. 432.5]
 ```
 
-## 👉 **À retenir**
+## **À retenir**
 
 * **Slicing** permet d’extraire des sous-parties d’un tableau.
 * **Indexation booléenne** est idéale pour filtrer avec des conditions.
