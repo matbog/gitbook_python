@@ -12,7 +12,7 @@ Quand on regarde du code Python, on tombe très souvent sur la ligne suivante
     [...]
 ```
 
-👉 Mais à quoi ça sert exactement ?
+_Mais à quoi ça sert exactement ?_
 
 ## Comprendre `__name__` <a href="#comprendre-__name" id="comprendre-__name"></a>
 
@@ -59,7 +59,7 @@ Ce message s’affiche toujours
 30
 ```
 
-➡️ On remarque que **la partie sous `if __name__ == "__main__":` n’a pas été exécutée** lors de l’import.&#x20;
+On remarque que **la partie sous `if __name__ == "__main__":` n’a pas été exécutée** lors de l’import.&#x20;
 
 C’est exactement son rôle : éviter que le “code de test” ou “code principal” ne s’exécute quand on utilise le fichier comme une librairie.
 
@@ -69,7 +69,7 @@ C’est exactement son rôle : éviter que le “code de test” ou “code prin
 * ✅ Pour écrire des **petits tests internes** (exécuter une fonction avec des exemples simples).
 * ❌ Si ton fichier ne sera **jamais importé** ailleurs, ce n’est pas indispensable, mais c’est une **bonne habitude** à prendre.
 
-#### 👉 Retenir <a href="#retenir" id="retenir"></a>
+#### Retenir <a href="#retenir" id="retenir"></a>
 
 * `__name__` est une variable spéciale créée automatiquement par Python.
 * `if __name__ == "__main__":` permet de séparer le **code exécutable** (tests, lancement du programme) du **code réutilisable** (fonctions, classes).
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     print("4 * 5 =", multiplication(4, 5))
 ```
 
-👉 Si vous exécutez **`python outils.py`**, le bloc `if __name__ == "__main__":` s’exécute et lance les tests. Mais si vous importez ce fichier depuis un autre, **ce bloc est ignoré** (il sert donc à ne pas polluer vos imports).
+Si vous exécutez **`python outils.py`**, le bloc `if __name__ == "__main__":` s’exécute et lance les tests. Mais si vous importez ce fichier depuis un autre, **ce bloc est ignoré** (il sert donc à ne pas polluer vos imports).
 
 ### Étape 2 : créer un fichier principal `main.py` <a href="#etape-2-creer-un-fichier-principal-main.py" id="etape-2-creer-un-fichier-principal-main.py"></a>
 
@@ -138,7 +138,7 @@ Produit : 56
 * Vous pouvez réutiliser vos fonctions dans d’autres scripts simplement avec `import`.
 * Les tests inclus sous `if __name__ == "__main__":` permettent de vérifier le module **sans perturber** les autres programmes qui l’utilisent.
 
-## 👉 Retenir <a href="#retenir-1" id="retenir-1"></a>
+## À Retenir <a href="#retenir-1" id="retenir-1"></a>
 
 * Un fichier Python peut être utilisé **comme script principal** ou **comme module importable**.
 * Le bloc `if __name__ == "__main__":` s’exécute seulement quand le fichier est lancé directement.

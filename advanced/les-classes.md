@@ -190,7 +190,7 @@ print("Nouvelle consommation :", gare.conso_totale(), "kWh")
 # Nouvelle consommation : 24000 kWh
 ```
 
-👉 Cet exemple illustre bien comment une classe permet de **structurer des données** (nom, surface, consommation spécifique) et d’ajouter des **méthodes métiers** (calcul de consommation totale, mise à jour des caractéristiques).\
+Cet exemple illustre bien comment une classe permet de **structurer des données** (nom, surface, consommation spécifique) et d’ajouter des **méthodes métiers** (calcul de consommation totale, mise à jour des caractéristiques).\
 C’est exactement le genre d’outil qui devient utile quand on manipule des bâtiments, des capteurs ou des simulations complexes.
 
 ***
