@@ -1,8 +1,8 @@
 ---
-icon: play
+icon: desktop-arrow-down
 ---
 
-# Principes de base
+# Installation et premières utilisations
 
 Avant de commencer à programmer, il est utile de comprendre quelques notions pratiques autour de Python :
 
@@ -76,7 +76,7 @@ Résultat :
 C'est pas faux !
 ```
 
-👉 Avec ces bases en place, vous êtes prêt à passer aux [_**Bases**_](https://matbog.gitbook.io/python/bases) de la programmation en Python !
+&#x20;Avec ces bases en place, vous êtes prêt à passer aux [_**Bases**_](https://matbog.gitbook.io/python/bases) de la programmation en Python !
 
 
 
