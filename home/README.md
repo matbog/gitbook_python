@@ -57,7 +57,7 @@ Bonne lecture, et surtout… bon code !
 
 ## Autres ressources
 
-Aussi, les fondamentaux peuvent être trouvé chez un copain (lien ci-dessous), qui dispose de beaucoup plus d'exemples concrets et appliqués (liés à l'ingénierie) avec des exercices  !&#x20;
+Aussi, les fondamentaux peuvent être trouvé chez un copain (liens ci-dessous), qui propose beaucoup plus d'exemples concrets et appliqués (liés à l'ingénierie) avec des exercices  !&#x20;
 
 Les tutos et exercices :&#x20;
 
