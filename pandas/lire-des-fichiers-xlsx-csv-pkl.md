@@ -1,14 +1,15 @@
 ---
+description: Pour les des fichiers directement dans une dataframe
 icon: glasses
 ---
 
 # Lire des fichiers (xlsx / csv / pkl)
 
+***
+
 ## Lire des fichiers `CSV`
 
-Quelques options de base utiles&#x20;
-
-{% embed url="https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html" %}
+Quelques options de base utiles :&#x20;
 
 ```python
 import pandas as pd
@@ -25,9 +26,13 @@ data = pd.read_csv(
        )     
 ```
 
+Plus d'options existent, voir la [documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html).&#x20;
+
+***
+
 ## Lire des fichiers `Excel`
 
-{% embed url="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html" %}
+Quelques options de base utiles :&#x20;
 
 ```python
 import pandas as pd
@@ -40,9 +45,11 @@ data = pd.read_excel_csv(
        )   
 ```
 
-## Lire des fichiers `PICKLE`
+Plus d'options existent, voir la [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html).&#x20;
 
-{% embed url="https://pandas.pydata.org/pandas-docs/version/2.1/reference/api/pandas.read_pickle.html" %}
+***
+
+## Lire des fichiers `PICKLE`
 
 Si vous utilisez des `pickle` (format de données python assez compressé) très utiles pour les "grosses" `dataframes` .
 
@@ -51,6 +58,8 @@ Si on lit une `dataframe` qui a été enregistré en `pickle`, à la lecture on 
 ```python
 data = pd.read_pickle("./dummy.pkl")  
 ```
+
+Et comme toujorus quelques options complémentaires existent : voir la [documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_pickle.html). &#x20;
 
 ***
 

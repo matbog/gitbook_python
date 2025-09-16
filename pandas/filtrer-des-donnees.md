@@ -4,7 +4,7 @@ icon: filter
 
 # Filtrer des données
 
-Filtrer les données d'une `pd.dataframe` avec une ou plusieurs conditions
+Comment filtrer les données d'une `pd.dataframe` avec une ou plusieurs conditions ?
 
 * Création d'une `dataframe` pour les exemples :
 
@@ -38,6 +38,8 @@ df
 8       25.0      nuit       75.0
 9       21.0      nuit       78.0
 ```
+
+***
 
 ## Méthode 1 : les "mask"
 
@@ -112,6 +114,8 @@ Name: colonne_C, dtype: float64
 
 On utilise ici `&` et `|` au lieu de `and` et `or` car on veut qu'il fasse l'opération ligne par ligne.&#x20;
 
+***
+
 ## Méthode 2 : fonction `df.loc`
 
 #### 1. Sortir les valeur correspondantes à une ou plusieurs conditions:
@@ -184,6 +188,8 @@ df.loc[df["colonne_A"] > 28, ["colonne_C", "colonne_B"]] = [50, "soleil"]
 8       25.0      nuit       75.0
 9       21.0      nuit       78.0
 ```
+
+***
 
 ## Pour aller plus loin&#x20;
 

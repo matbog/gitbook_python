@@ -8,6 +8,8 @@ icon: file-plus
 Le cœur de Pandas est la **DataFrame** : un tableau à 2 dimensions avec des lignes et colonnes, un peu comme une feuille Excel.\
 Avant de travailler sur des données (filtrer, grouper, tracer…), il faut savoir comment créer une DataFrame.
 
+***
+
 ## 1. À partir d’un dictionnaire
 
 C’est la méthode la plus simple pour de petits exemples.\
@@ -31,6 +33,8 @@ print(df)
 2  Charlie   35  Marseille
 ```
 
+***
+
 ## 2. À partir d’une liste de dictionnaires
 
 Chaque dictionnaire correspond à une ligne.\
@@ -45,6 +49,8 @@ data = [
 
 df = pd.DataFrame(data)
 ```
+
+***
 
 ## 3. À partir d’une liste de listes
 
@@ -61,6 +67,8 @@ df = pd.DataFrame(data, columns=["Nom", "Âge", "Ville"])
 
 ```
 
+***
+
 ## 4. Créer une DataFrame vide
 
 Parfois utile comme point de départ.
@@ -69,6 +77,8 @@ Parfois utile comme point de départ.
 df = pd.DataFrame(columns=["Nom", "Âge", "Ville"])
 print(df)
 ```
+
+***
 
 ## 5. Series vs DataFrame
 
@@ -135,6 +145,8 @@ Retenir :
 * Une **Series** est une seule colonne de données.
 * Une **DataFrame** est un tableau complet (plusieurs Series mises ensemble).
 * Chaque fois que vous manipulez une DataFrame, souvenez-vous qu’en interne, ce n’est qu’un ensemble de Series alignées sur le même index.
+
+***
 
 ## À Retenir
 

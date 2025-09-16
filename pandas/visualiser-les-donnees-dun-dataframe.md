@@ -30,13 +30,15 @@ df.plot(x="Mois", y="Ventes", kind="line", title="Évolution des ventes")
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-
+***
 
 ## 2. Types de graphiques disponibles
 
 L’argument `kind` permet de choisir le type de graphique :
 
 <table data-header-hidden><thead><tr><th width="185"></th><th></th><th></th></tr></thead><tbody><tr><td>Type (<code>kind</code>)</td><td>Description</td><td>Exemple</td></tr><tr><td><code>"line"</code></td><td>Courbe (par défaut)</td><td><code>df.plot(kind="line")</code></td></tr><tr><td><code>"bar"</code></td><td>Histogramme vertical</td><td><code>df.plot(kind="bar")</code></td></tr><tr><td><code>"barh"</code></td><td>Histogramme horizontal</td><td><code>df.plot(kind="barh")</code></td></tr><tr><td><code>"hist"</code></td><td>Histogramme de fréquences</td><td><code>df.plot(kind="hist")</code></td></tr><tr><td><code>"box"</code></td><td>Boîte à moustaches</td><td><code>df.plot(kind="box")</code></td></tr><tr><td><code>"area"</code></td><td>Graphique en aires</td><td><code>df.plot(kind="area")</code></td></tr><tr><td><code>"pie"</code></td><td>Camembert (sur une Series)</td><td><code>df["Ventes"].plot(kind="pie")</code></td></tr><tr><td><code>"scatter"</code></td><td>Nuage de points (nécessite <code>x</code> et <code>y</code>)</td><td><code>df.plot(x="col1", y="col2", kind="scatter")</code></td></tr></tbody></table>
+
+***
 
 ## 3. Exemple : barres
 
@@ -52,6 +54,8 @@ df.plot(x="Produit", y="Ventes", kind="bar", title="Ventes par produit")
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ## 4. Exemple : scatter plot
 
 ```python
@@ -65,6 +69,8 @@ df.plot(x="Poids", y="Taille", kind="scatter", title="Taille vs Poids")
 ```
 
 <figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ## 5. Personnalisation rapide
 
