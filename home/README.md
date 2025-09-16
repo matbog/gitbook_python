@@ -12,8 +12,7 @@ Ce site est en **construction progressive** : je l’enrichis progressivement av
 
 ### Pourquoi ce site ?
 
-Ce site est sans prétention : il n’a pas vocation à remplacer de vraies formations certifiantes en Python.\
-Il s’agit plutôt d’un guide pratique, une boîte à outils pour se lancer.\
+Ce site est sans prétention : il n'est pas exhaustif, il ne couvre pas "tout", il n’a pas vocation à remplacer de vraies formations certifiantes en Python. Il s’agit plutôt d’un _guide pratique_, une boîte à outils pour se lancer.\
 J’y partage les bases que j’aurais aimé trouver quand j’ai commencé Python.
 
 Même parcouru en diagonale, il peut donner un aperçu des possibilités offertes par le langage, et peut-être l’envie d’aller plus loin.
@@ -31,11 +30,13 @@ Mon objectif est simple :
 
 L’idée n’est pas de multiplier les exercices, mais de présenter des **exemples clairs et commentés**.
 
-Ils permettent de comprendre la logique, de voir comment appliquer directement les concepts, et de les réutiliser ensuite dans vos propres projets.
+Ils permettent de comprendre la logique, les fonctionnalités, de voir comment appliquer directement les concepts, et de les réutiliser ensuite dans vos propres projets.
 
 Vous utiliserez nécessairement Google, [Stackoverflow](https://stackoverflow.com/), ou des IA génératives, et ces bases sont là pour que vous puissiez comprendre les réponses que vous y trouverez !
 
-\>>  L’objectif est que chacun puisse, à terme, **développer ses propres scripts et outils** sans dépendre constamment de ce site ou d’un enseignant.&#x20;
+\>  L’objectif est que chacun puisse, à terme, **développer ses propres scripts et outils** sans dépendre constamment de ce site ou d’un enseignant.&#x20;
+
+***
 
 ### Ce que vous trouverez ici
 
