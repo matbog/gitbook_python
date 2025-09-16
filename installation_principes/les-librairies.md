@@ -10,7 +10,7 @@ En programmation, on ne repart (heureusement !) pas toujours de zéro.
 Des milliers de développeurs ont déjà écrit du code pour résoudre des problèmes courants, et ils partagent ces morceaux de code sous forme de **librairies** (ou _packages,_ ou encore _modules_).
 
 Utiliser une librairie, c’est réutiliser ces briques toutes faites au lieu de réinventer la roue.\
-Exemple : pourquoi écrire soi-même un calcul de moyenne alors que NumPy le fait en une ligne ?
+Exemple : pourquoi écrire soi-même un calcul de moyenne alors que `NumPy` le fait en une ligne ?
 
 ***
 
@@ -79,7 +79,7 @@ print(sqrt(9))
 
 ### Pour débuter en Python
 
-**Liste non-exhaustive !**&#x20;
+**Listes non-exhaustives !**&#x20;
 
 * **NumPy** → calcul numérique (vecteurs, matrices)
 * **Pandas** → manipulation de données tabulaires (CSV, Excel, bases de données)
@@ -91,6 +91,7 @@ print(sqrt(9))
 * **pvlib** → outils pour la **modélisation et l’analyse des systèmes photovoltaïques** (irradiation, production solaire, suivi de panneaux).
 * **meteostat** → accès facile aux **données météorologiques** historiques et récentes (température, vent, ensoleillement). Très utile pour les études énergétiques.
 * **pyvista** → bibliothèque de **visualisation 3D** (cartes, volumes, champs de température ou de vitesse). Idéal pour représenter des simulations ou des modèles 3D de bâtiments.
+* ... _et des milliers d'autres !_
 
 ## **À retenir**
 

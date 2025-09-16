@@ -4,7 +4,9 @@ icon: globe
 
 # Les Environnements
 
-Quand on débute en Python, on installe souvent tout “en vrac” sur son ordinateur. _C'est ce que j'ai fait pendant des années!_&#x20;
+Quand on débute en Python, on installe souvent tout “en vrac” sur son ordinateur.&#x20;
+
+_C'est ce que j'ai fait pendant des années!_&#x20;
 
 Mais plus on avance, plus on installe de librairies différentes, et il devient vite difficile de garder tout propre et compatible. C’est là qu’entrent en jeu les **environnements Python**.
 
@@ -13,7 +15,7 @@ Mais plus on avance, plus on installe de librairies différentes, et il devient 
 Un **environnement Python** est comme une petite “bulle” isolée qui contient sa propre version de Python et ses propres librairies.\
 Ainsi, chaque projet peut avoir ses dépendances spécifiques, sans interférer avec les autres.
 
-📌 Exemple :
+Exemple :
 
 * Projet A a besoin de **NumPy 1.21**.
 * Projet B a besoin de **NumPy 2.0** (une version plus récente).\
@@ -61,7 +63,7 @@ source env_projet/bin/activate
 deactivate
 ```
 
-👉 Tu peux choisir un autre nom de dossier (par ex. `.venv`, `venv_test`, `env_ml`, etc.).\
+Tu peux choisir un autre nom de dossier (par ex. `.venv`, `venv_test`, `env_ml`, etc.).\
 Il suffit ensuite de toujours activer l’environnement correspondant avant de travailler.
 
 ## 3. Installer une version spécifique de Python
@@ -117,7 +119,7 @@ matplotlib==3.9.0
 
 Ainsi, tu assures que tout le monde travaille avec **les mêmes versions** de bibliothèques, ce qui évite beaucoup de problèmes de compatibilité.
 
-## 👉 **À retenir**
+## **À retenir**
 
 * Un environnement virtuel = un espace isolé avec ses propres versions de Python et des packages.
 * Donne un **nom clair** à ton environnement (ex. `projet_data`) pour t’y retrouver.
