@@ -12,7 +12,7 @@ icon: globe-pointer
 
 ## Librairies visualisation Python &#x20;
 
-### 📊 Visualisation interactive
+### Visualisation interactive
 
 * [**Plotly** ](https://plotly.com/python/)\
   Graphiques interactifs (zoom, survol, sliders), parfait pour notebooks ou dashboards.
@@ -21,16 +21,19 @@ icon: globe-pointer
 * [**Altair**](https://altair-viz.github.io/) \
   Basée sur la grammaire de la visualisation (Vega-Lite), syntaxe déclarative, très pratique pour des DataFrames.
 
-### 🗺️ Cartographie & spatial
+### Cartographie & spatial
 
 * [**GeoPandas** ](https://geopandas.org/)\
   Pour manipuler et tracer facilement des données géographiques.
 * [**Folium**](https://python-visualization.github.io/folium/) \
   Intègre Leaflet.js → cartes interactives (idéal pour tracer points/trajectoires sur un fond OpenStreetMap).
+* [**Dash-leaflet**](https://www.dash-leaflet.com/) : Intègre Leaflet.js → cartes interactives (idéal pour tracer points/trajectoires sur un fond OpenStreetMap).
 * [**Cartopy** ](https://scitools.org.uk/cartopy/docs/latest/)\
   Pour des cartes plus “scientifiques” (projection, données climatiques, etc.).
+* [**Pydeck**](https://deckgl.readthedocs.io/en/latest/) \
+  Intègre Deck.gl → cartes interactives&#x20;
 
-### 📈 Spécialisées
+### Spécialisées
 
 * [**NetworkX**](https://networkx.org/) (avec `nx.draw`)\
   Pour visualiser des graphes (réseaux de transport, réseaux sociaux, etc.).

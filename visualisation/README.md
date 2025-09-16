@@ -123,13 +123,13 @@ plt.show()
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-👉 Avec ces bases, tu peux déjà réaliser la plupart des graphiques “classiques” (courbes, barres, histogrammes, nuages de points).
+Avec ces bases, tu peux déjà réaliser la plupart des graphiques “classiques” (courbes, barres, histogrammes, nuages de points).
 
 ### Et tous les autres...
 
-:astonished: Il existe de nombreux autres types de graphiques !&#x20;
+Il existe de nombreux autres types de graphiques !&#x20;
 
-#### 📈 Plots de base
+#### Plots de base
 
 * `plot()` → courbes (line plots)
 * `scatter()` → nuages de points
@@ -139,7 +139,7 @@ plt.show()
 
 ***
 
-#### 📊 Graphiques statistiques
+#### Graphiques statistiques
 
 * `boxplot()` → boîte à moustaches (distribution, outliers)
 * `violinplot()` → distribution lissée (similaire à boxplot, mais avec densité)
@@ -148,7 +148,7 @@ plt.show()
 
 ***
 
-#### 🌍 Graphiques avancés / spécialisés
+#### Graphiques avancés / spécialisés
 
 * `imshow()` → afficher une image ou une matrice (ex : heatmap simple)
 * `pcolor()` / `pcolormesh()` → cartes de couleurs (heatmaps sur grilles)
@@ -158,7 +158,7 @@ plt.show()
 
 ***
 
-#### 🧭 3D (via `Axes3D` de `mpl_toolkits.mplot3d`)
+#### 3D (via `Axes3D` de `mpl_toolkits.mplot3d`)
 
 * `plot3D()` → courbes 3D
 * `scatter3D()` → nuages de points 3D
@@ -169,7 +169,7 @@ plt.show()
 
 ***
 
-#### 🖼️ Autres utilitaires
+#### Autres utilitaires
 
 * `errorbar()` → courbes avec barres d’erreur
 * `fill_between()` → zones colorées entre courbes
@@ -178,7 +178,7 @@ plt.show()
 
 ***
 
-👉 Pour t’y retrouver facilement :
+Pour t’y retrouver facilement :
 
 * La [**Matplotlib Gallery**](https://matplotlib.org/stable/gallery/index.html) montre un exemple pour chaque type de tracé.
 * La [**cheat sheet officielle** (PDF)](https://github.com/matplotlib/cheatsheets) est très pratique comme aide-mémoire visuel.

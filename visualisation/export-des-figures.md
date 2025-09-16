@@ -53,7 +53,7 @@ Matplotlib peut exporter dans de nombreux formats, par exemple :
 * `"svg"` → vectoriel pour le web
 * `"pdf"` → vectoriel, parfait pour un rapport ou une présentation
 
-## 👉 Retenir
+## Retenir
 
 * `plt.show()` affiche le graphique à l’écran.
 * `plt.savefig("nom_fichier.format")` enregistre le graphique.

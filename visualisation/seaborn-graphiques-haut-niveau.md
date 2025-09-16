@@ -104,7 +104,7 @@ plt.show()
 
 ***
 
-### 👉 Points clés
+### Points clés
 
 * **Seaborn** simplifie beaucoup la création de graphiques à partir de DataFrames.
 * Les couleurs, légendes et styles sont automatiques (et plus esthétiques que Matplotlib par défaut).
@@ -112,7 +112,7 @@ plt.show()
 
 ## Pour aller plus loin : Les principaux plots Seaborn
 
-### 📈 Données continues (courbes, distributions)
+### Données continues (courbes, distributions)
 
 * `lineplot()` → courbes (évolution temporelle, séries chronologiques)
 * `scatterplot()` → nuages de points
@@ -121,7 +121,7 @@ plt.show()
 
 ***
 
-### 📊 Données catégorielles
+### Données catégorielles
 
 * `barplot()` → barres (moyenne + intervalle de confiance)
 * `countplot()` → histogramme de comptage (effectifs par catégorie)
@@ -132,7 +132,7 @@ plt.show()
 
 ***
 
-### 📉 Distribution & densité
+### Distribution & densité
 
 * `histplot()` → histogrammes (remplace l’ancien `distplot`)
 * `kdeplot()` → densité (courbe lissée)
@@ -140,7 +140,7 @@ plt.show()
 
 ***
 
-### 🔗 Relations multivariées
+### Relations multivariées
 
 * `pairplot()` → matrice de nuages de points + histogrammes diagonaux (exploration rapide)
 * `jointplot()` → nuage de points avec histogrammes sur les marges (2 variables).
@@ -149,7 +149,7 @@ plt.show()
 
 ***
 
-### 🗂️ Facettes & organisation
+### Facettes & organisation
 
 * `FacetGrid()` → base pour tracer plusieurs sous-graphiques selon des variables.
 * `catplot()` → fonction générique pour combiner barplot, boxplot, etc., avec facettes.
@@ -157,7 +157,7 @@ plt.show()
 
 ## Ressources complémentaires&#x20;
 
-👉 Ressources utiles :
+Ressources utiles :
 
 * [Seaborn Gallery](https://seaborn.pydata.org/examples/index.html) (beaucoup d’exemples concrets)
 
