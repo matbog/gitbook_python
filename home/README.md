@@ -6,7 +6,7 @@ icon: snake
 
 ## Bienvenue !&#x20;
 
-Ce site est en **construction progressive** : je l’enrichis progressivement avec des notes de cours, des tutoriels et des ressources pratiques autour de **Python**.
+Ce site est en **construction progressive** : je l’enrichis progressivement avec des notes, des choses que je découvre et des ressources pratiques autour de **Python**.
 
 ***
 
