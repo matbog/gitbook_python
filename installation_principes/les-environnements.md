@@ -10,6 +10,8 @@ _C'est ce que j'ai fait pendant des années!_&#x20;
 
 Mais plus on avance, plus on installe de librairies différentes, et il devient vite difficile de garder tout propre et compatible. C’est là qu’entrent en jeu les **environnements Python**.
 
+***
+
 ## 1. Qu’est-ce qu’un environnement Python ?
 
 Un **environnement Python** est comme une petite “bulle” isolée qui contient sa propre version de Python et ses propres librairies.\
@@ -20,6 +22,8 @@ Exemple :
 * Projet A a besoin de **NumPy 1.21**.
 * Projet B a besoin de **NumPy 2.0** (une version plus récente).\
   Sans environnements virtuels, ces deux projets se mélangeraient et créeraient des erreurs. Avec un environnement séparé pour chaque projet, chacun a sa bonne version.
+
+***
 
 ## 2. Comment créer et utiliser un environnement virtuel ?
 
@@ -66,6 +70,8 @@ deactivate
 Tu peux choisir un autre nom de dossier (par ex. `.venv`, `venv_test`, `env_ml`, etc.).\
 Il suffit ensuite de toujours activer l’environnement correspondant avant de travailler.
 
+***
+
 ## 3. Installer une version spécifique de Python
 
 Selon ton projet, tu peux avoir besoin d’une version particulière de Python (par exemple pour être compatible avec une librairie).
@@ -88,7 +94,7 @@ Avec conda, on peut directement préciser la version de Python lors de la créat
 conda create -n projet_climat python=3.9
 ```
 
-
+***
 
 ## 4. Le fichier `requirements.txt`
 
@@ -118,6 +124,8 @@ matplotlib==3.9.0
     ```
 
 Ainsi, tu assures que tout le monde travaille avec **les mêmes versions** de bibliothèques, ce qui évite beaucoup de problèmes de compatibilité.
+
+***
 
 ## **À retenir**
 

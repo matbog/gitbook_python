@@ -11,6 +11,8 @@ Avant de commencer à programmer, il est utile de comprendre quelques notions pr
 * comment exécuter un script (`script.py`),
 * comment importer et utiliser des librairies.
 
+***
+
 ## Installation de Python
 
 * Sur Windows / Mac / Linux, la manière la plus simple est d’installer [Anaconda](https://www.anaconda.com/) :
@@ -54,6 +56,8 @@ Exemple : exécuter un fichier `mon_script.py` dans le dossier courant :
 ```bash
 python mon_script.py
 ```
+
+***
 
 ## Les fichiers `.py`
 

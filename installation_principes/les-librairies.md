@@ -41,6 +41,8 @@ conda install numpy
 
 Selon ton environnement (Python “pur” ou Anaconda), tu utiliseras l’une ou l’autre commande.
 
+***
+
 ## 3. Importer une librairie
 
 En Python, on utilise le mot-clé **`import`**.
@@ -75,6 +77,8 @@ print(sqrt(9))
 
 ⚠️ Déconseillé, car cela peut créer des conflits de noms (deux fonctions avec le même nom mais de librairies différentes).
 
+***
+
 ## 4. Quelques librairies populaires
 
 ### Pour débuter en Python
@@ -92,6 +96,8 @@ print(sqrt(9))
 * **meteostat** → accès facile aux **données météorologiques** historiques et récentes (température, vent, ensoleillement). Très utile pour les études énergétiques.
 * **pyvista** → bibliothèque de **visualisation 3D** (cartes, volumes, champs de température ou de vitesse). Idéal pour représenter des simulations ou des modèles 3D de bâtiments.
 * ... _et des milliers d'autres !_
+
+***
 
 ## **À retenir**
 
