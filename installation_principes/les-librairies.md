@@ -39,7 +39,7 @@ pip install numpy
 conda install numpy
 ```
 
-👉 Selon ton environnement (Python “pur” ou Anaconda), tu utiliseras l’une ou l’autre commande.
+Selon ton environnement (Python “pur” ou Anaconda), tu utiliseras l’une ou l’autre commande.
 
 ## 3. Importer une librairie
 
@@ -92,7 +92,7 @@ print(sqrt(9))
 * **meteostat** → accès facile aux **données météorologiques** historiques et récentes (température, vent, ensoleillement). Très utile pour les études énergétiques.
 * **pyvista** → bibliothèque de **visualisation 3D** (cartes, volumes, champs de température ou de vitesse). Idéal pour représenter des simulations ou des modèles 3D de bâtiments.
 
-## 👉 **À retenir**
+## **À retenir**
 
 * Une **librairie** est un ensemble de fonctions réutilisables.
 * On les installe via `pip install ...` ou `conda install ...`.
