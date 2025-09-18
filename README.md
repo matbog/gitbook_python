@@ -8,6 +8,7 @@ Ce repository est un backup de gitbook pour mon site de cours de python : [https
 
 Chaque dossier correspond à une "section" du site : 
 ```
+Learn Python
 ├── Home ! Se mettre à Python
 │   ├── Se mettre à Python
 │   └── Licence
