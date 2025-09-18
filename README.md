@@ -54,10 +54,10 @@ Learn Python
 │   ├── Export des figures
 │   └── Ressources externes
 └── Utilisation avancée
-│   ├── Le rôle de `__main__`
-│   ├── Les classes
-│   ├── Classes / Avancé
-│   └── Accélérer son code
+    ├── Le rôle de `__main__`
+    ├── Les classes
+    ├── Classes / Avancé
+    └── Accélérer son code
 ```
 ---
 <img width="150" alt="BGD" src="https://github.com/user-attachments/assets/3ae0cb08-62dd-4a47-bf66-932e3bc251c3" />
