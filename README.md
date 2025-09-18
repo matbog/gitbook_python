@@ -7,7 +7,7 @@ Ce repository est un backup de gitbook pour mon site de cours de python : [https
 
 
 Chaque dossier correspond à une "section" du site : 
-
+```
 |-- Home ! Se mettre à Python
 |   |-- Se mettre à Python
 |   |-- Licence
@@ -17,6 +17,6 @@ Chaque dossier correspond à une "section" du site :
 |-- Pandas
 |-- Visualisation
 |-- Utilisation avancée
-   
+```
 ---
 <img width="150" alt="BGD" src="https://github.com/user-attachments/assets/3ae0cb08-62dd-4a47-bf66-932e3bc251c3" />
