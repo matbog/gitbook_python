@@ -20,6 +20,7 @@ data = pd.read_csv(
         header='infer',        # Usefull if there is a clean header
         skiprows=1,            # Skip N rows
         nrows=1000             # Number of rows to read
+        # [...] beaucoup d'autres options existent !
         # if the csvc index is already a "time"
         parse_dates=True,
         infer_datetime_format=True,
@@ -41,6 +42,11 @@ data = pd.read_excel_csv(
         #Options utiles
         sheet_name=0, # le nom de la "feuille" excel
         index_col = 0, # le numero de la colonne qui servira d'index
+        usecols=None, # n'utiliser que certaines colonnes
+        skiprows=None, # ne pas lire les n premières lignes, 
+        header=0, # ligne d'entete 
+        parse_dates=None # gérer les date 
+        # [...] beaucoup d'autres options existent !
         dtype={'Name': str, 'Value': float} # type de colonnes {le nom de la colonne: le type de données}
        )   
 ```
