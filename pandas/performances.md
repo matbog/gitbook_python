@@ -197,3 +197,88 @@ Avantages :&#x20;
 
 
 
+## `map`/`apply` vs vectorisation : la bataille des performances
+
+#### Le problème
+
+Python est un langage interprété, ce qui signifie que les boucles sont lentes.&#x20;
+
+`Pandas`/`NumPy` utilisent du code C compilé → les opérations vectorisées sont ultra-rapides. On va donc voir comment en tirer profit !&#x20;
+
+<pre class="language-python"><code class="lang-python"># Cas d'usage réaliste : classification de température
+temperatures = np.random.uniform(10, 40, 100000)  # 100k mesures
+df_temp = pd.DataFrame({'temperature': temperatures})
+
+def classify_comfort_python(temp):
+    """Classification 'naïve' en Python pur"""
+    if temp &#x3C; 16:
+        return 'Too Cold'
+    elif temp &#x3C; 20:
+        return 'Cool'
+    elif temp &#x3C; 24:
+        return 'Comfortable'
+    elif temp &#x3C; 28:
+        return 'Warm'
+    else:
+        return 'Too Hot'
+
+# Méthode lente : apply appelle la fonction Python pour chaque ligne
+%timeit df_temp['comfort_slow'] = df_temp['temperature'].apply(classify_comfort_python)
+>>>
+146 ms ± 6.74 ms per loop (mean ± std. dev. of 7 runs, 10 loops each) 
+
+# Méthode plus rapide : vectorisation avec np.select
+conditions = [
+    df_temp['temperature'] &#x3C; 16,
+    df_temp['temperature'] &#x3C; 20, 
+    df_temp['temperature'] &#x3C; 24,
+    df_temp['temperature'] &#x3C; 28
+]
+choices = ['Too Cold', 'Cool', 'Comfortable', 'Warm']
+
+%timeit df_temp['comfort_fast'] = np.select(conditions, choices, default='Too Hot')
+<strong>>>>
+</strong><strong>103 ms ± 1.97 ms per loop (mean ± std. dev. of 7 runs, 10 loops each) 
+</strong></code></pre>
+
+On vient de gagner 30% de temps d'exécution.&#x20;
+
+Pour info, avec cet exemple, il y aurait même encore plus rapide, avec la catégorisation et la fonction `cut` décrite [ici](https://matbog.gitbook.io/python/pandas/categoriser-des-donnees). &#x20;
+
+```python
+bins = [-np.inf, 16, 20, 24, 28, np.inf]
+labels = ['Too Cold', 'Cool', 'Comfortable', 'Warm', 'Too Hot']
+
+%timeit df_temp['comfort_cut'] = pd.cut(df_temp['temperature'], bins=bins, labels=labels)
+>>>
+22 ms ± 651 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
+```
+
+Guyide de décision :&#x20;
+
+```python
+## En prenant des exemples différents (dfs non fournies)
+
+# 1. MAP : dictionnaire de correspondance simple
+status_mapping = {1: 'Active', 2: 'Inactive', 3: 'Suspended'}
+df['status_name'] = df['status_code'].map(status_mapping)  # ✅ Très rapide
+
+# 2. VECTORISATION : conditions mathématiques/logiques (voir "masks")
+df['is_adult'] = df['age'] >= 18  # ✅ Ultra rapide
+df['bmi_category'] = np.where(df['bmi'] > 25, 'Overweight', 'Normal')  # ✅ Rapide
+
+# 3. APPLY : logique complexe non-vectorisable
+def complex_business_rule(row):
+    """Exemple : règle métier complexe avec plusieurs colonnes"""
+    if row['department'] == 'Sales' and row['experience'] > 5:
+        bonus_rate = 0.15
+    elif row['department'] == 'Tech' and row['certifications'] > 2:
+        bonus_rate = 0.12
+    else:
+        bonus_rate = 0.05
+    
+    return row['salary'] * bonus_rate * (1 + row['performance_score'] / 100)
+
+df['bonus'] = df.apply(complex_business_rule, axis=1)  # ⚠️ Plus lent mais nécessaire
+```
+
