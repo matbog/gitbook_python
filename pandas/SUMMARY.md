@@ -11,3 +11,4 @@
 * [Joindre des Dataframes](joindre-des-dataframes.md)
 * [Reshape et Pivot](reshape-et-pivot.md)
 * [Divers](divers.md)
+* [Performances](performances.md)
