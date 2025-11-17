@@ -13,16 +13,16 @@ Ce site est en **construction progressive** : je l’enrichis progressivement av
 ### Pourquoi ce site ?
 
 Ce site est sans prétention : il n'est pas exhaustif, il ne couvre pas "tout", il n’a pas vocation à remplacer de vraies formations certifiantes en Python. Il s’agit plutôt d’un _guide pratique_, une boîte à outils pour se lancer.\
-J’y partage les bases que j’aurais aimé trouver quand j’ai commencé Python.
+J’y partage les bases que j’aurai aimé trouver quand j’ai commencé à utiliser le langage Python.
 
 Même parcouru en diagonale, il peut donner un aperçu des possibilités offertes par le langage, et peut-être l’envie d’aller plus loin.
 
 Mon objectif est simple :
 
 * Démystifier la programmation,&#x20;
-* partager des notions essentielles de Python et de ses bibliothèques,
-* proposer des exemples concrets (scripts, graphiques, manipulation de données),
-* fournir des ressources adaptées aux étudiants et aux ingénieurs.
+* Partager des notions essentielles de Python et de ses bibliothèques,
+* Proposer des exemples simples et concrets (scripts, graphiques, manipulation de données),
+* Fournir des ressources adaptées aux étudiants et aux ingénieurs.
 
 ***
 
@@ -58,7 +58,7 @@ Bonne lecture, et surtout… bon code !
 
 ## Autres ressources
 
-Aussi, les fondamentaux peuvent être trouvé chez un copain (liens ci-dessous), qui propose beaucoup plus d'exemples concrets et appliqués (liés à l'ingénierie) avec des exercices  !&#x20;
+Les fondamentaux peuvent être trouvé chez un copain (liens ci-dessous), qui propose beaucoup plus d'exemples concrets et appliqués (liés à l'ingénierie) avec des exercices  !&#x20;
 
 Les tutos et exercices :&#x20;
 
