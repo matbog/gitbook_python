@@ -108,6 +108,15 @@ Résultat :
 
 Ici, NumPy **“étire” (broadcast)** le vecteur `v` sur chaque ligne de `M`. Pas besoin d’écrire de boucle !
 
+#### Les règles du broadcasting (à retenir absolument)
+
+NumPy compare les dimensions depuis la droite vers la gauche :
+
+1. Si les dimensions sont identiques → OK
+2. Si l'une des dimensions vaut 1 → elle est "étirée"
+3. Si l'une des dimensions n'existe pas → elle est considérée comme 1
+4. Sinon → erreur
+
 ***
 
 ## 6. Exemple pratique (capteurs d’air)
