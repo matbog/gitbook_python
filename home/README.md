@@ -46,7 +46,7 @@ Différentes pages, accessibles par les liens ci-dessous, ou par le menu déroul
 
 ***
 
-### 🧪 Python Lab
+### &#x20;Python Lab
 
 En complément du cours, un **lab interactif** est disponible pour pratiquer Python directement dans le navigateur, sans installation.
 
@@ -56,8 +56,7 @@ Le lab contient :
 * des exemples,
 * des mini-projets de synthèse.
 
-👉 **Accéder au lab interactif** :\
-[Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+**Accéder au lab interactif** : [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
 
 #### Contenu du lab
 
