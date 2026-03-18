@@ -6,6 +6,14 @@ icon: medal
 
 ## Performance avancée avec Pandas
 
+> 🧪 **Exercices interactifs — Pandas**
+>
+> Pour manipuler des données tabulaires, filtrer, agréger, gérer les dates et les valeurs manquantes, ouvre le notebook :
+>
+> **`03_pandas.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ### Pourquoi s'intéresser aux performances ?
 
 Quand on travaille avec des datasets de quelques milliers de lignes, les performances ne sont pas un enjeu. Mais dès qu'on dépasse les 100 000 lignes, ou qu'on manipule des données répétitivement (dans une boucle d'analyse par exemple), chaque optimisation compte.

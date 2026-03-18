@@ -11,6 +11,14 @@ Si on veut regrouper des données (pas forcément temporelles) via un index, ou 
 Le mot-clé `groupby` permet de regrouper un DataFrame selon une ou plusieurs colonnes, puis d’appliquer des calculs (moyenne, somme, comptage…).\
 C’est très pratique pour analyser des sous-ensembles de données.
 
+> 🧪 **Exercices interactifs — Pandas**
+>
+> Pour manipuler des données tabulaires, filtrer, agréger, gérer les dates et les valeurs manquantes, ouvre le notebook :
+>
+> **`03_pandas.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 Créons un petit DataFrame factice :
 
 ```python

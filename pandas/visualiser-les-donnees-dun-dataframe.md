@@ -10,6 +10,14 @@ Elle permet de tracer directement vos données (basée sur [Matplotlib](https://
 
 C’est très pratique pour explorer rapidement un jeu de données.
 
+> 🧪 **Exercices interactifs — Pandas**
+>
+> Pour manipuler des données tabulaires, filtrer, agréger, gérer les dates et les valeurs manquantes, ouvre le notebook :
+>
+> **`03_pandas.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Exemple de base

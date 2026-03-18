@@ -15,6 +15,14 @@ En Pandas, il existe trois grandes approches complémentaires :
 3. **`concat`** → empiler ou juxtaposer plusieurs DataFrames (sans clé commune, juste les aligner par colonnes ou par lignes).\
    &#xNAN;_&#x50;ratique pour rassembler plusieurs fichiers de structure identique._
 
+> 🧪 **Exercices interactifs — Pandas**
+>
+> Pour manipuler des données tabulaires, filtrer, agréger, gérer les dates et les valeurs manquantes, ouvre le notebook :
+>
+> **`03_pandas.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 
 
 ## Exemple avec `merge`

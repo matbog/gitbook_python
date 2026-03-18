@@ -12,6 +12,14 @@ Un même jeu de données peut être représenté sous différentes formes :
 Changer la forme d’un DataFrame est très courant : pour préparer des calculs, des agrégations ou encore des visualisations.\
 Pandas propose plusieurs méthodes pour cela : `pivot`, `pivot_table`, `melt`, `stack` et `unstack`.
 
+> 🧪 **Exercices interactifs — Pandas**
+>
+> Pour manipuler des données tabulaires, filtrer, agréger, gérer les dates et les valeurs manquantes, ouvre le notebook :
+>
+> **`03_pandas.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ## Exemple de `pivot`
 
 ```python

@@ -8,6 +8,14 @@ icon: file-plus
 Le cœur de Pandas est la **DataFrame** : un tableau à 2 dimensions avec des lignes et colonnes, un peu comme une feuille Excel.\
 Avant de travailler sur des données (filtrer, grouper, tracer…), il faut savoir comment créer une DataFrame.
 
+> 🧪 **Exercices interactifs — Pandas**
+>
+> Pour manipuler des données tabulaires, filtrer, agréger, gérer les dates et les valeurs manquantes, ouvre le notebook :
+>
+> **`03_pandas.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. À partir d’un dictionnaire

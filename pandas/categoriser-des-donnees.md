@@ -4,6 +4,14 @@ icon: chart-simple-horizontal
 
 # Catégoriser des données
 
+> 🧪 **Exercices interactifs — Pandas**
+>
+> Pour manipuler des données tabulaires, filtrer, agréger, gérer les dates et les valeurs manquantes, ouvre le notebook :
+>
+> **`03_pandas.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 `pd.cut` / `pd.qcut`
 
 Une tâche courante lors du traitement des données consiste à regrouper des « valeurs » en catégories, soit pour les compter, soit pour les classer.&#x20;
