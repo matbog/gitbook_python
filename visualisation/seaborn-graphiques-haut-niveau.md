@@ -7,6 +7,14 @@ icon: chart-mixed
 [Seaborn ](https://seaborn.pydata.org/)est construit au-dessus de Matplotlib.\
 Il permet de créer rapidement des graphiques plus esthétiques, avec moins de code, surtout quand les données sont sous forme de **DataFrame Pandas**.
 
+> 🧪 **Exercices interactifs — Visualisation**
+>
+> Pour créer des graphiques avec Matplotlib et Seaborn à partir de données climatiques, ouvre le notebook :
+>
+> **`04_visualisation.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## Bases

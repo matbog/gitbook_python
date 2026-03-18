@@ -7,6 +7,14 @@ icon: chart-scatter
 La visualisation est l’une des forces de Python. Avec seulement quelques lignes de code, on peut créer des graphiques clairs et esthétiques.\
 La bibliothèque la plus utilisée est [**Matplotlib**](https://matplotlib.org/stable/users/getting_started/) (bas niveau, très flexible)
 
+> 🧪 **Exercices interactifs — Visualisation**
+>
+> Pour créer des graphiques avec Matplotlib et Seaborn à partir de données climatiques, ouvre le notebook :
+>
+> **`04_visualisation.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## Les bases

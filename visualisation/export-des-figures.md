@@ -10,6 +10,14 @@ Mais il est souvent utile de **sauvegarder vos figures** pour les insérer dans 
 
 Pour cela, on utilise la fonction **`plt.savefig()`**.
 
+> 🧪 **Exercices interactifs — Visualisation**
+>
+> Pour créer des graphiques avec Matplotlib et Seaborn à partir de données climatiques, ouvre le notebook :
+>
+> **`04_visualisation.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Sauvegarder en PNG
