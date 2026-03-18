@@ -7,6 +7,14 @@ icon: percent
 Un des gros avantages de NumPy est de pouvoir effectuer des **opérations mathématiques directement sur des tableaux entiers**, sans écrire de boucles.\
 Cela rend le code plus **rapide** et plus **lisible** qu’avec des listes classiques.
 
+> 🧪 **Exercices interactifs — NumPy**
+>
+> Pour t'entraîner sur les tableaux, l'indexation, les masques, les statistiques et les simulations, ouvre le notebook :
+>
+> **`02_numpy.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Opérations arithmétiques de base

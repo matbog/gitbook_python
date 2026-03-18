@@ -7,6 +7,14 @@ icon: border-none
 Une fois NumPy installé et importé, l’outil principal que l’on utilise est le **tableau multidimensionnel** (`numpy.ndarray`).\
 Cette page montre comment **créer** des tableaux et les manipuler (taille, forme, opérations simples).
 
+> 🧪 **Exercices interactifs — NumPy**
+>
+> Pour t'entraîner sur les tableaux, l'indexation, les masques, les statistiques et les simulations, ouvre le notebook :
+>
+> **`02_numpy.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Créer des tableaux

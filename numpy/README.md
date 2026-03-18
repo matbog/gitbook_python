@@ -8,6 +8,14 @@ Avant de plonger dans [**Pandas**](https://matbog.gitbook.io/python/pandas), il 
 NumPy est une bibliothèque fondamentale pour le calcul scientifique en Python.\
 Elle permet de manipuler efficacement des **tableaux de nombres** (appelés **`ndarray`**) et de faire des calculs rapides.
 
+> 🧪 **Exercices interactifs — NumPy**
+>
+> Pour t'entraîner sur les tableaux, l'indexation, les masques, les statistiques et les simulations, ouvre le notebook :
+>
+> **`02_numpy.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## Pourquoi utiliser NumPy ?

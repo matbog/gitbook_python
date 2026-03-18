@@ -7,6 +7,14 @@ icon: indent
 Un des points forts de NumPy est la **manipulation efficace des données** :\
 on peut accéder rapidement aux éléments d’un tableau, extraire des sous-ensembles, ou appliquer des opérations sans boucle explicite.
 
+> 🧪 **Exercices interactifs — NumPy**
+>
+> Pour t'entraîner sur les tableaux, l'indexation, les masques, les statistiques et les simulations, ouvre le notebook :
+>
+> **`02_numpy.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Indexation simple

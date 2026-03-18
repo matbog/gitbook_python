@@ -7,6 +7,14 @@ icon: binary-circle-check
 Un autre atout de NumPy est sa capacité à **générer rapidement des données** (séquences, aléatoires, distributions).\
 Cela est très pratique pour simuler des expériences ou créer de petits jeux de données de test.
 
+> 🧪 **Exercices interactifs — NumPy**
+>
+> Pour t'entraîner sur les tableaux, l'indexation, les masques, les statistiques et les simulations, ouvre le notebook :
+>
+> **`02_numpy.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Générer des suites numériques
