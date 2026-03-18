@@ -46,6 +46,35 @@ Différentes pages, accessibles par les liens ci-dessous, ou par le menu déroul
 
 ***
 
+### 🧪 Python Lab
+
+En complément du cours, un **lab interactif** est disponible pour pratiquer Python directement dans le navigateur, sans installation.
+
+Le lab contient :
+
+* des notebooks d'exercices progressifs,
+* des exemples,
+* des mini-projets de synthèse.
+
+👉 **Accéder au lab interactif** :\
+[Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
+#### Contenu du lab
+
+* **00\_start.ipynb** : prise en main de l'environnement
+* **01\_bases\_climat.ipynb** : bases Python
+* **02\_numpy\_climat.ipynb** : introduction à NumPy
+* **03\_pandas\_climat.ipynb** : manipulation de données avec Pandas
+* **04\_visualisation\_climat.ipynb** : graphiques et visualisation
+* **10\_projet\_climat\_villes.ipynb** : projet multi-villes
+* **11\_projet\_confort\_ete.ipynb** : indicateurs de confort d'été
+* **12\_projet\_carte\_climatique.ipynb** : carte climatique simplifiée
+
+> 💡 Le lab est conçu pour être utilisé en parallèle du cours :\
+> lire une notion sur GitBook, puis la mettre en pratique dans un notebook.
+
+***
+
 ### En résumé
 
 * Un contenu qui s’étoffe petit à petit,
