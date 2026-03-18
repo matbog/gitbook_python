@@ -14,6 +14,14 @@ Quand on regarde du code Python, on tombe très souvent sur la ligne suivante
 
 _Mais à quoi ça sert exactement ?_
 
+> 🧪 **Exercices interactifs — Utilisation avancée**
+>
+> Pour pratiquer les classes, l’héritage, les méthodes spéciales et les premières idées d’optimisation, ouvre le notebook :
+>
+> **`05_utilisation_avancee.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## Comprendre `__name__` <a href="#comprendre-__name" id="comprendre-__name"></a>

@@ -11,6 +11,14 @@ Dans cette page, on pousse plus loin la POO en Python :
 * **Polymorphisme** : un même nom de méthode, des comportements adaptés.
 * **Dataclasses** : créer des classes “porte-données” sans boilerplate.
 
+> 🧪 **Exercices interactifs — Utilisation avancée**
+>
+> Pour pratiquer les classes, l’héritage, les méthodes spéciales et les premières idées d’optimisation, ouvre le notebook :
+>
+> **`05_utilisation_avancee.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Héritage : réutiliser et spécialiser

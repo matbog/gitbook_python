@@ -10,6 +10,14 @@ Cela vient du fait que **Python est un langage interprété** (le code est tradu
 
 Heureusement, il existe plusieurs techniques pour améliorer les performances !
 
+> 🧪 **Exercices interactifs — Utilisation avancée**
+>
+> Pour pratiquer les classes, l’héritage, les méthodes spéciales et les premières idées d’optimisation, ouvre le notebook :
+>
+> **`05_utilisation_avancee.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Optimiser le code avant tout

@@ -8,6 +8,14 @@ Jusqu’ici, nous avons utilisé des **variables**, des **listes**, des **dictio
 Mais dans des projets plus grands, il devient vite utile de **structurer** les données et les fonctions qui leur sont associées.\
 C’est exactement ce que permettent les **classes** en Python.
 
+> 🧪 **Exercices interactifs — Utilisation avancée**
+>
+> Pour pratiquer les classes, l’héritage, les méthodes spéciales et les premières idées d’optimisation, ouvre le notebook :
+>
+> **`05_utilisation_avancee.ipynb`**
+>
+> 👉 [Ouvrir Python Lab](https://matbog.github.io/python-lab/lab/index.html)
+
 ***
 
 ## 1. Qu’est-ce qu’une classe ?
